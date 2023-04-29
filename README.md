@@ -1,6 +1,6 @@
 # clamscan-docker
 
-This Docker container will use ClamAV to scan a mounter folder for viruses and send an email or Slack message if a virus is found.
+This Docker container will use ClamAV to scan a mounted volume for viruses and send an email or Slack message if a virus is found.
 
 You can get the container to scan at startup and then on a cron schedule. It will only scan new files on the cron schedule.
 
